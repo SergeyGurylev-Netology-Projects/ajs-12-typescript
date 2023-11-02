@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",

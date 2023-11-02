@@ -1,5 +1,6 @@
 .idea
 dist
+src/ts/app.ts
 
 # Coverage directory used by tools like istanbul
 coverage
